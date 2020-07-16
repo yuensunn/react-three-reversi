@@ -1,8 +1,12 @@
 {
   "name": "react-three-reversi",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Built with react, react-three-fibre",
+  "keywords": [
+    "react",
+    "three.js",
+    "react-three-fibre"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "immer": "7.0.5",
