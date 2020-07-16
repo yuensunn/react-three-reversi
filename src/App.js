@@ -8,11 +8,13 @@ import Disc from "./Disc";
 import useGameManager from "./useGameManager";
 import CameraControl from "./CameraControl";
 import Input from "./Input";
+import Effect from "./Effects";
 
 export default function App() {
   const { discs, placeAtUv } = useGameManager({ size: 8, tileSize: 5 });
   return (
     <Canvas style={{ height: window.innerHeight }}>
+      {/* <Effect /> */}
       <Input
         onIntersect={obj => {
           placeAtUv(obj.uv.x, obj.uv.y);
@@ -30,8 +32,6 @@ export default function App() {
           ))}
         </Board>
       </Suspense>
-      {/* <Box position={[-1.2, 0, 0]} />
-      <Box position={[1.2, 0, 0]} /> */}
     </Canvas>
   );
 }
