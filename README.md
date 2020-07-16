@@ -1,2 +1,8 @@
 # react-three-reversi
-Created with CodeSandbox
+### Built with
+- codesandbox
+- react
+- react-three-fibre
+
+
+![test](https://codesandbox.io/api/v1/sandboxes/qhdk8/screenshot.png)
