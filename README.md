@@ -1,5 +1,5 @@
 # react-three-reversi
-![thumbnail](https://codesandbox.io/api/v1/sandboxes/qhdk8/screenshot.png)
+[<img src="https://codesandbox.io/api/v1/sandboxes/qhdk8/screenshot.png">](https://codesandbox.io/s/github/yuensunn/react-three-reversi)
 
 ### Built with
 - codesandbox
