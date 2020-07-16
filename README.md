@@ -7,5 +7,5 @@
 - react-three-fibre
 
 ### Input
-- 1 finger drag to pan rotate view
+- 1 finger drag to rotate view
 - Tap on board to place disc
