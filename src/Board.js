@@ -3,7 +3,7 @@ import { useLoader, useUpdate } from "react-three-fiber";
 import * as THREE from "three";
 const Board = ({ children }) => {
   const gr = React.useRef();
-  const [texture] = useLoader(THREE.TextureLoader, ["/grid.jpg"]);
+  const [texture] = useLoader(THREE.TextureLoader, ["https://i.imgur.com/aSXRfWW.jpg"]);
 
   texture.wrapS = THREE.RepeatWrapping;
   texture.wrapT = THREE.RepeatWrapping;
